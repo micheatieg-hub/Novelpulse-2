@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echoes Beyond the Horizon</title>
+  <meta name="theme-color" content="#6200EE">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('images/cover.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    header {
+      background-color: rgba(98,0,238,0.9);
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      flex-shrink: 0;
+    }
+
+    main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(0,0,0,0.4);
+    }
+
+    .btn {
+      background-color: #03DAC5;
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 12px;
+      font-size: 1rem;
+      margin: 10px 0;
+      cursor: pointer;
+      width: 80%;
+      max-width: 300px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #018786;
+    }
+
+    .card {
+      background-color: rgba(0,0,0,0.6);
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 350px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    footer {
+      background-color: rgba(98,0,238,0.9);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <header>Echoes Beyond the Horizon</header>
+
+  <main>
+    <!-- Novel intro card -->
+    <div class="card">
+      <h2>By TIEG</h2>
+      <p>A dramatic adventure novel filled with mystery, courage, and discovery.</p>
+      <a class="btn" href="chapter1.html">Start Reading</a>
+    </div>
+
+    <!-- Chapter navigation cards -->
+    <div class="card">
+      <h3>Chapter 1</h3>
+      <a class="btn" href="chapter1.html">Read Chapter 1</a>
+    </div>
+    <div class="card">
+      <h3>Chapter 2</h3>
+      <a class="btn" href="chapter2.html">Read Chapter 2</a>
+    </div>
+    <div class="card">
+      <h3>Chapter 3</h3>
+      <a class="btn" href="chapter3.html">Read Chapter 3</a>
+    </div>
+    <div class="card">
+      <h3>Chapter 4</h3>
+      <a class="btn" href="chapter4.html">Read Chapter 4</a>
+    </div>
+    <div class="card">
+      <h3>Chapter 5</h3>
+      <a class="btn" href="chapter5.html">Read Chapter 5</a>
+    </div>
+  </main>
+
+  <footer>© 2026 TIEG — Author & App Developer</footer>
+</body>
+</html>

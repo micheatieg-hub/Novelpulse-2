@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About TIEG</title>
+  <meta name="theme-color" content="#6200EE">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('images/cover.jpg'); /* same theme image as home */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      background-color: rgba(98,0,238,0.9);
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      flex-shrink: 0;
+    }
+
+    main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(0,0,0,0.4); /* semi-transparent overlay */
+    }
+
+    .card {
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 350px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .btn {
+      background-color: #03DAC5;
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 12px;
+      font-size: 1rem;
+      margin: 10px 0;
+      cursor: pointer;
+      width: 80%;
+      max-width: 250px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #018786;
+    }
+
+    footer {
+      background-color: rgba(98,0,238,0.9);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    img {
+      max-width: 80%;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+
+  </style>
+</head>
+<body>
+  <header>About TIEG</header>
+
+  <main>
+    <!-- Optional Logo / Portrait -->
+    <img src="images/cover.jpg" alt="App Cover or Logo">
+
+    <!-- About Card -->
+    <div class="card">
+      <h2>Hello! I'm TIEG</h2>
+      <p>I am the author of <strong>Echoes Beyond the Horizon</strong> and the developer of this web novel app.</p>
+      <p>This platform is designed to let you enjoy the novel in a smooth, app-like reading experience on any device.</p>
+    </div>
+
+    <!-- Optional Contact / GitHub -->
+    <div class="card">
+      <h3>Connect with me</h3>
+      <p>If you want to explore more apps or projects, check out my GitHub:</p>
+      <a class="btn" href="https://github.com/micheatieg-hub" target="_blank">TIEG on GitHub</a>
+    </div>
+
+    <!-- Optional Navigation Button back to Home -->
+    <div class="card">
+      <a class="btn" href="index.html">Back to Home</a>
+    </div>
+  </main>
+
+  <footer>© 2026 TIEG — Author & App Developer</footer>
+</body>
+</html>
